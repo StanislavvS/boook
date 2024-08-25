@@ -1,6 +1,6 @@
 {
   "name": "stanlej4dnotes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "bin": "dist/index.js",
   "files": [
     "dist"
