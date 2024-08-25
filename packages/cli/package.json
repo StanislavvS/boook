@@ -1,0 +1,30 @@
+{
+  "name": "stanlej4dnotes",
+  "version": "1.0.0",
+  "bin": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prePublishOnly": "esbuild "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stanlej4d/local-client": "1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "@stanlej4dnotes/local-api": "^1.0.0",
+    "commander": "^11.0.0",
+    "esbuild": "0.8.26",
+    "typescript": "^5.2.2"
+  },
+  "main": "index.js",
+  "description": ""
+}
