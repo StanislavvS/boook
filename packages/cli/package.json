@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@stanlej4dnotes/local-api": "^1.0.0",
+    "@stanlej4dnotes/local-client": "1.0.0",
     "@types/node": "^20.8.4",
     "commander": "^11.0.0",
     "esbuild": "0.8.26",
